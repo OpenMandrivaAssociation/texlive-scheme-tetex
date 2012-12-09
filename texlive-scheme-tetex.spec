@@ -109,3 +109,11 @@ that was maintained by Thomas Esser.
 %build
 
 %install
+
+
+%changelog
+* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120307-1
++ Revision: 783157
+- Import texlive-scheme-tetex
+- Import texlive-scheme-tetex
+
