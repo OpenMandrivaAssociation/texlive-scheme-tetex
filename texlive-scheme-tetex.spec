@@ -1,11 +1,11 @@
-# revision 21479
+# revision 30457
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-tetex
-Version:	20120307
+Version:	20131013
 Release:	1
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
@@ -46,7 +46,6 @@ Requires:	texlive-mltex
 Requires:	texlive-multirow
 Requires:	texlive-nomencl
 Requires:	texlive-pst-pdf
-Requires:	texlive-pstricks-tutorial
 Requires:	texlive-rsfs
 Requires:	texlive-subfigure
 Requires:	texlive-supertabular
@@ -55,40 +54,30 @@ Requires:	texlive-tds
 Requires:	texlive-tex-refs
 Requires:	texlive-collection-basic
 Requires:	texlive-collection-context
-Requires:	texlive-collection-documentation-base
-Requires:	texlive-collection-fontutils
 Requires:	texlive-collection-fontsrecommended
+Requires:	texlive-collection-fontutils
 Requires:	texlive-collection-genericrecommended
 Requires:	texlive-collection-langcjk
-Requires:	texlive-collection-langcroatian
 Requires:	texlive-collection-langcyrillic
 Requires:	texlive-collection-langczechslovak
-Requires:	texlive-collection-langdanish
-Requires:	texlive-collection-langdutch
-Requires:	texlive-collection-langfinnish
+Requires:	texlive-collection-langenglish
+Requires:	texlive-collection-langeuropean
 Requires:	texlive-collection-langfrench
 Requires:	texlive-collection-langgerman
 Requires:	texlive-collection-langgreek
-Requires:	texlive-collection-langhungarian
 Requires:	texlive-collection-langitalian
-Requires:	texlive-collection-langlatin
-Requires:	texlive-collection-langmongolian
-Requires:	texlive-collection-langnorwegian
 Requires:	texlive-collection-langother
 Requires:	texlive-collection-langpolish
 Requires:	texlive-collection-langportuguese
 Requires:	texlive-collection-langspanish
-Requires:	texlive-collection-langswedish
-Requires:	texlive-collection-langenglish
-Requires:	texlive-collection-langvietnamese
 Requires:	texlive-collection-latex
 Requires:	texlive-collection-latexrecommended
 Requires:	texlive-collection-mathextra
 Requires:	texlive-collection-metapost
 Requires:	texlive-collection-omega
 Requires:	texlive-collection-pictures
+Requires:	texlive-collection-plainextra
 Requires:	texlive-collection-pstricks
-Requires:	texlive-collection-texinfo
 %rename tetex
 %rename texlive-dviutils
 
@@ -109,11 +98,3 @@ that was maintained by Thomas Esser.
 %build
 
 %install
-
-
-%changelog
-* Wed Mar 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120307-1
-+ Revision: 783157
-- Import texlive-scheme-tetex
-- Import texlive-scheme-tetex
-
