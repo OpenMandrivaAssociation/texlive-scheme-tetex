@@ -1,12 +1,12 @@
-# revision 30457
+# revision 32952
 # category Scheme
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-tetex
-Version:	20131013
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -41,7 +41,6 @@ Requires:	texlive-eplain
 Requires:	texlive-eulervm
 Requires:	texlive-gentle
 Requires:	texlive-lshort-english
-Requires:	texlive-mathmode
 Requires:	texlive-mltex
 Requires:	texlive-multirow
 Requires:	texlive-nomencl
@@ -52,6 +51,7 @@ Requires:	texlive-supertabular
 Requires:	texlive-tamethebeast
 Requires:	texlive-tds
 Requires:	texlive-tex-refs
+Requires:	texlive-voss-mathmode
 Requires:	texlive-collection-basic
 Requires:	texlive-collection-context
 Requires:	texlive-collection-fontsrecommended
