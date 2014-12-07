@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-scheme-tetex
 Version:	20140215
-Release:	3
+Release:	4
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
 URL:		http://tug.org/texlive
