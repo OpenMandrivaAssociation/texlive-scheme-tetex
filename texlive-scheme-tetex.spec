@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-tetex
-Version:	20170505
+Version:	20180303
 Release:	1
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
