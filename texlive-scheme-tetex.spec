@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-scheme-tetex
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
 URL:		http://tug.org/texlive
