@@ -1,17 +1,11 @@
-# revision 32952
-# category Scheme
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-scheme-tetex
-Version:	20190228
+Version:	59715
 Release:	1
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-tetex.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-tetex.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -86,14 +80,14 @@ TeX Live scheme nearly equivalent to the teTeX distribution
 that was maintained by Thomas Esser.
 
 %posttrans
-    %{_sbindir}/texlive.post -
+%{_sbindir}/texlive.post -
 
 #-----------------------------------------------------------------------
 %files
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 
