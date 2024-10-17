@@ -3,7 +3,7 @@ Version:	59715
 Release:	2
 Summary:	teTeX scheme (more than medium, but nowhere near full)
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/scheme-tetex.r%{version}.tar.xz
 BuildArch:	noarch
